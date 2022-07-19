@@ -1,0 +1,89 @@
+ul {
+list-style-type: none;;
+}
+ul{
+  text-align: center;
+}
+.header,
+.clear{
+  text-align: center;
+}
+label.checked{
+  text-decoration: line-through;
+}
+.header {
+  text-align: center;
+  margin-top:200px;
+  margin:auto;
+  width: 750px;
+  background-color: pink;
+}
+.clear{
+  margin:auto;
+  width: 750px;
+  background-color: pink;
+  margin-top: 40px;
+  text-align: end;
+  height: 25px;
+}
+#clear{
+  height: 25px;
+  width: 70px;
+  border:none;
+  color: black;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: bold;
+}
+#input {
+  width: 400px;
+  height: 20px;
+  border-color: black;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+#addbutton{
+  width: 50px;
+  height: 28px;
+  border:none;
+  color: black;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: bold;
+}
+#addbutton:hover,
+#clear:hover{
+  color: white;
+  background-color: rgb(102, 97, 97);
+}
+.anytask{
+  font-size: 25px;
+  font-weight: bold;
+}
+#mytasks{
+  margin:auto;
+  width: 720px;
+  background-color: rgb(120, 55, 158);;
+}
+.task-list{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  align-items: center;
+  color: white;
+  width: 705px;
+  height: 20px;
+  font-size: larger;
+}
+.deletebutton{
+  float: right;
+  cursor: pointer;
+}
+.checkbox{
+  float: left;
+}
+label{
+  float: left;
+}
+li{
+  margin-bottom: 15px;
+}
